@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="main_module">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="main_module\postgresDB">
+      <UniqueIdentifier>{10348a52-3f5a-4993-b71f-1e2185636bb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main_module\Weather">
+      <UniqueIdentifier>{8eff8602-40a3-4082-878d-8e583b4b804e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main_module\Worker1">
+      <UniqueIdentifier>{d42f49c9-ced1-4422-99b2-c623694b700f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main_module\keys">
+      <UniqueIdentifier>{2a89a59f-0424-4413-88f1-63527a1aaec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configure">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>main_module</Filter>
+    </ClCompile>
+    <ClCompile Include="postgresDB.cpp">
+      <Filter>main_module\postgresDB</Filter>
+    </ClCompile>
+    <ClCompile Include="Weather.cpp">
+      <Filter>main_module\Weather</Filter>
+    </ClCompile>
+    <ClCompile Include="processing.cpp">
+      <Filter>main_module\Worker1</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="postgresDB.h">
+      <Filter>main_module\postgresDB</Filter>
+    </ClInclude>
+    <ClInclude Include="Weather.h">
+      <Filter>main_module\Weather</Filter>
+    </ClInclude>
+    <ClInclude Include="headers.h">
+      <Filter>main_module\Worker1</Filter>
+    </ClInclude>
+    <ClInclude Include="db.h">
+      <Filter>main_module\keys</Filter>
+    </ClInclude>
+    <ClInclude Include="api.h">
+      <Filter>main_module\keys</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="config.ini">
+      <Filter>Configure</Filter>
+    </None>
+  </ItemGroup>
+</Project>
